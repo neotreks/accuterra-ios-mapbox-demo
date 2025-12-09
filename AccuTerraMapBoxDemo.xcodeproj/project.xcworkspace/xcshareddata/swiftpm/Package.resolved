@@ -1,0 +1,69 @@
+{
+  "originHash" : "70278b4a726d3e2b156b84b625fe32157962174f1ff4ccfb0a860e49719ce99f",
+  "pins" : [
+    {
+      "identity" : "accuterra-sdk-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/neotreks/accuterra-sdk-distribution",
+      "state" : {
+        "revision" : "44bef7d88f96e99b2841eec358e2f54070628073",
+        "version" : "0.30.3"
+      }
+    },
+    {
+      "identity" : "mapbox-common-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/mapbox-common-ios.git",
+      "state" : {
+        "revision" : "a1c5f7b3d3a5e620739ff0e8448b3b324961597b",
+        "version" : "24.17.0"
+      }
+    },
+    {
+      "identity" : "mapbox-core-maps-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/mapbox-core-maps-ios.git",
+      "state" : {
+        "revision" : "60b7d00f57d1782483edc5b4ce1813076ac7a6ee",
+        "version" : "11.17.0"
+      }
+    },
+    {
+      "identity" : "mapbox-maps-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/mapbox-maps-ios.git",
+      "state" : {
+        "revision" : "7611ab2738f576b6ea78dcfed88989bce29c472b",
+        "version" : "11.17.0"
+      }
+    },
+    {
+      "identity" : "maplibre-ios-distribution",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/neotreks/maplibre-ios-distribution",
+      "state" : {
+        "revision" : "3fe41eb3c552208d0f5e38cfce07eec2553f9b07",
+        "version" : "6.18.2"
+      }
+    },
+    {
+      "identity" : "reachabilityswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/neotreks/ReachabilitySwift",
+      "state" : {
+        "revision" : "54adc49e682219a739919f772f014301d86fc039",
+        "version" : "5.2.4"
+      }
+    },
+    {
+      "identity" : "turf-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mapbox/turf-swift.git",
+      "state" : {
+        "revision" : "bf840e6b9529d105687840fe2c9dcd74197d46d1",
+        "version" : "4.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57A36C162EE73BC300BA594B /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 57A36C152EE73BC300BA594B /* MapboxMaps */; };
+		57DCF8E62EE771990094A615 /* AccuTerraSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 57DCF8E52EE771990094A615 /* AccuTerraSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		572675CD2EE6B2B1006AD54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572675AE2EE6B2B0006AD54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572675B52EE6B2B0006AD54A;
+			remoteInfo = AccuTerraMapBoxDemo;
+		};
+		572675D72EE6B2B1006AD54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 572675AE2EE6B2B0006AD54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 572675B52EE6B2B0006AD54A;
+			remoteInfo = AccuTerraMapBoxDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		572675B62EE6B2B0006AD54A /* AccuTerraMapBoxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccuTerraMapBoxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		572675CC2EE6B2B1006AD54A /* AccuTerraMapBoxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccuTerraMapBoxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		572675D62EE6B2B1006AD54A /* AccuTerraMapBoxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccuTerraMapBoxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		572675DE2EE6B2B1006AD54A /* Exceptions for "AccuTerraMapBoxDemo" folder in "AccuTerraMapBoxDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 572675B52EE6B2B0006AD54A /* AccuTerraMapBoxDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		572675B82EE6B2B0006AD54A /* AccuTerraMapBoxDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				572675DE2EE6B2B1006AD54A /* Exceptions for "AccuTerraMapBoxDemo" folder in "AccuTerraMapBoxDemo" target */,
+			);
+			path = AccuTerraMapBoxDemo;
+			sourceTree = "<group>";
+		};
+		572675CF2EE6B2B1006AD54A /* AccuTerraMapBoxDemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AccuTerraMapBoxDemoTests;
+			sourceTree = "<group>";
+		};
+		572675D92EE6B2B1006AD54A /* AccuTerraMapBoxDemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AccuTerraMapBoxDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		572675B32EE6B2B0006AD54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DCF8E62EE771990094A615 /* AccuTerraSDK in Frameworks */,
+				57A36C162EE73BC300BA594B /* MapboxMaps in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572675C92EE6B2B1006AD54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572675D32EE6B2B1006AD54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		572675AD2EE6B2B0006AD54A = {
+			isa = PBXGroup;
+			children = (
+				572675B82EE6B2B0006AD54A /* AccuTerraMapBoxDemo */,
+				572675CF2EE6B2B1006AD54A /* AccuTerraMapBoxDemoTests */,
+				572675D92EE6B2B1006AD54A /* AccuTerraMapBoxDemoUITests */,
+				572675B72EE6B2B0006AD54A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		572675B72EE6B2B0006AD54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				572675B62EE6B2B0006AD54A /* AccuTerraMapBoxDemo.app */,
+				572675CC2EE6B2B1006AD54A /* AccuTerraMapBoxDemoTests.xctest */,
+				572675D62EE6B2B1006AD54A /* AccuTerraMapBoxDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		572675B52EE6B2B0006AD54A /* AccuTerraMapBoxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572675DF2EE6B2B1006AD54A /* Build configuration list for PBXNativeTarget "AccuTerraMapBoxDemo" */;
+			buildPhases = (
+				572675B22EE6B2B0006AD54A /* Sources */,
+				572675B32EE6B2B0006AD54A /* Frameworks */,
+				572675B42EE6B2B0006AD54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				572675B82EE6B2B0006AD54A /* AccuTerraMapBoxDemo */,
+			);
+			name = AccuTerraMapBoxDemo;
+			packageProductDependencies = (
+				57A36C152EE73BC300BA594B /* MapboxMaps */,
+				57DCF8E52EE771990094A615 /* AccuTerraSDK */,
+			);
+			productName = AccuTerraMapBoxDemo;
+			productReference = 572675B62EE6B2B0006AD54A /* AccuTerraMapBoxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		572675CB2EE6B2B1006AD54A /* AccuTerraMapBoxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572675E42EE6B2B1006AD54A /* Build configuration list for PBXNativeTarget "AccuTerraMapBoxDemoTests" */;
+			buildPhases = (
+				572675C82EE6B2B1006AD54A /* Sources */,
+				572675C92EE6B2B1006AD54A /* Frameworks */,
+				572675CA2EE6B2B1006AD54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572675CE2EE6B2B1006AD54A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				572675CF2EE6B2B1006AD54A /* AccuTerraMapBoxDemoTests */,
+			);
+			name = AccuTerraMapBoxDemoTests;
+			packageProductDependencies = (
+			);
+			productName = AccuTerraMapBoxDemoTests;
+			productReference = 572675CC2EE6B2B1006AD54A /* AccuTerraMapBoxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		572675D52EE6B2B1006AD54A /* AccuTerraMapBoxDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 572675E72EE6B2B1006AD54A /* Build configuration list for PBXNativeTarget "AccuTerraMapBoxDemoUITests" */;
+			buildPhases = (
+				572675D22EE6B2B1006AD54A /* Sources */,
+				572675D32EE6B2B1006AD54A /* Frameworks */,
+				572675D42EE6B2B1006AD54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				572675D82EE6B2B1006AD54A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				572675D92EE6B2B1006AD54A /* AccuTerraMapBoxDemoUITests */,
+			);
+			name = AccuTerraMapBoxDemoUITests;
+			packageProductDependencies = (
+			);
+			productName = AccuTerraMapBoxDemoUITests;
+			productReference = 572675D62EE6B2B1006AD54A /* AccuTerraMapBoxDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		572675AE2EE6B2B0006AD54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					572675B52EE6B2B0006AD54A = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					572675CB2EE6B2B1006AD54A = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 572675B52EE6B2B0006AD54A;
+					};
+					572675D52EE6B2B1006AD54A = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 572675B52EE6B2B0006AD54A;
+					};
+				};
+			};
+			buildConfigurationList = 572675B12EE6B2B0006AD54A /* Build configuration list for PBXProject "AccuTerraMapBoxDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 572675AD2EE6B2B0006AD54A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				57A36C142EE73BC300BA594B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+				57DCF8E42EE771990094A615 /* XCRemoteSwiftPackageReference "accuterra-sdk-distribution" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 572675B72EE6B2B0006AD54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				572675B52EE6B2B0006AD54A /* AccuTerraMapBoxDemo */,
+				572675CB2EE6B2B1006AD54A /* AccuTerraMapBoxDemoTests */,
+				572675D52EE6B2B1006AD54A /* AccuTerraMapBoxDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		572675B42EE6B2B0006AD54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572675CA2EE6B2B1006AD54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572675D42EE6B2B1006AD54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		572675B22EE6B2B0006AD54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572675C82EE6B2B1006AD54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572675D22EE6B2B1006AD54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		572675CE2EE6B2B1006AD54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572675B52EE6B2B0006AD54A /* AccuTerraMapBoxDemo */;
+			targetProxy = 572675CD2EE6B2B1006AD54A /* PBXContainerItemProxy */;
+		};
+		572675D82EE6B2B1006AD54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 572675B52EE6B2B0006AD54A /* AccuTerraMapBoxDemo */;
+			targetProxy = 572675D72EE6B2B1006AD54A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		572675E02EE6B2B1006AD54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccuTerraMapBoxDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The AccuTerra Trails needs your location to display it on the map.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Add images to your trip.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neotreks.accuterra.mapboxdemo.AccuTerraMapBoxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		572675E12EE6B2B1006AD54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AccuTerraMapBoxDemo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The AccuTerra Trails needs your location to display it on the map.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Add images to your trip.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neotreks.accuterra.mapboxdemo.AccuTerraMapBoxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		572675E22EE6B2B1006AD54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		572675E32EE6B2B1006AD54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		572675E52EE6B2B1006AD54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neotreks.accuterra.mapboxdemo.AccuTerraMapBoxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccuTerraMapBoxDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AccuTerraMapBoxDemo";
+			};
+			name = Debug;
+		};
+		572675E62EE6B2B1006AD54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neotreks.accuterra.mapboxdemo.AccuTerraMapBoxDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AccuTerraMapBoxDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AccuTerraMapBoxDemo";
+			};
+			name = Release;
+		};
+		572675E82EE6B2B1006AD54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neotreks.accuterra.mapboxdemo.AccuTerraMapBoxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AccuTerraMapBoxDemo;
+			};
+			name = Debug;
+		};
+		572675E92EE6B2B1006AD54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neotreks.accuterra.mapboxdemo.AccuTerraMapBoxDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AccuTerraMapBoxDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		572675B12EE6B2B0006AD54A /* Build configuration list for PBXProject "AccuTerraMapBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572675E22EE6B2B1006AD54A /* Debug */,
+				572675E32EE6B2B1006AD54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572675DF2EE6B2B1006AD54A /* Build configuration list for PBXNativeTarget "AccuTerraMapBoxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572675E02EE6B2B1006AD54A /* Debug */,
+				572675E12EE6B2B1006AD54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572675E42EE6B2B1006AD54A /* Build configuration list for PBXNativeTarget "AccuTerraMapBoxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572675E52EE6B2B1006AD54A /* Debug */,
+				572675E62EE6B2B1006AD54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		572675E72EE6B2B1006AD54A /* Build configuration list for PBXNativeTarget "AccuTerraMapBoxDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				572675E82EE6B2B1006AD54A /* Debug */,
+				572675E92EE6B2B1006AD54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		57A36C142EE73BC300BA594B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 11.17.0;
+			};
+		};
+		57DCF8E42EE771990094A615 /* XCRemoteSwiftPackageReference "accuterra-sdk-distribution" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/neotreks/accuterra-sdk-distribution";
+			requirement = {
+				kind = exactVersion;
+				version = 0.30.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		57A36C152EE73BC300BA594B /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57A36C142EE73BC300BA594B /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+		57DCF8E52EE771990094A615 /* AccuTerraSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57DCF8E42EE771990094A615 /* XCRemoteSwiftPackageReference "accuterra-sdk-distribution" */;
+			productName = AccuTerraSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 572675AE2EE6B2B0006AD54A /* Project object */;
+}

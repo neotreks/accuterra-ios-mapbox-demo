@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACCUTERRA_MAP_API_KEY</key>
+	<string></string>
+	<key>ACCUTERRA_MAP_STYLE_URL</key>
+	<string>https://maps.accuterra.com/v1/styles/accuterra-outdoors/style.json</string>
+	<key>MBXAccessToken</key>
+	<string></string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>WS_AUTH_CLIENT_ID</key>
+	<string></string>
+	<key>WS_AUTH_CLIENT_SECRET</key>
+	<string></string>
+	<key>WS_AUTH_URL</key>
+	<string></string>
+	<key>WS_BASE_URL</key>
+	<string>https://dev.accuterra.com:443/api/</string>
+</dict>
+</plist>
